@@ -56,8 +56,9 @@ cd college-finder
 
 
 ## 📸 Screenshots
+![Screenshot 2025-04-10 202158](https://github.com/user-attachments/assets/09cc9a65-18f7-4295-a6f3-de64dbca6e79)
 
-> _You can add some screenshots of your UI here once ready._
+
 
 ---
 
