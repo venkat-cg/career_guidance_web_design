@@ -1,0 +1,203 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4f7; /* Light background */
+    color: #222; /* Dark text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #6a1b9a; /* Purple */
+    padding: 12px 24px;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 55px; 
+    width: 135px; 
+    border-radius: 1px; 
+}
+
+header nav a {
+    color: white;
+    margin-left: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #7e57c2; /* Lighter Purple */
+    color: #fff;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff; /* White background for content */
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.4s ease;
+}
+
+/* Headings */
+h2 {
+    color: #6a1b9a; /* Purple */
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+}
+
+label {
+    font-weight: bold;
+    color: #444; /* Darker text for labels */
+}
+
+select, input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+select:focus, input[type="number"]:focus {
+    border-color: #6a1b9a; /* Purple border on focus */
+    outline: none;
+}
+
+/* Search Button */
+button {
+    background: #ffeb3b; /* Yellow */
+    color: #222; /* Dark text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #fdd835; /* Lighter Yellow */
+    transform: scale(1.05);
+}
+
+/* Results Container */
+#results {
+    margin-top: 20px;
+}
+
+/* College Card */
+.college-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.college-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.college-card h3 {
+    color: #6a1b9a; /* Purple */
+    margin-bottom: 10px;
+}
+
+.college-card p {
+    margin: 5px 0;
+    color: #555; /* Darker text for readability */
+}
+
+.college-card a {
+    display: inline-block;
+    background: #ffeb3b; /* Yellow */
+    color: #222; /* Dark text */
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.college-card a:hover {
+    background: #fdd835; /* Lighter Yellow */
+    transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    header nav a {
+        margin-left: 12px;
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    select, input[type="number"] {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .college-card {
+        padding: 10px;
+    }
+
+    .college-card a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
