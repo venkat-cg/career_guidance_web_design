@@ -1,4 +1,4 @@
-# 🎓 College Finder
+![Screenshot 2025-04-10 202158](https://github.com/user-attachments/assets/f7f01b9e-8736-4fd1-97da-2c57ddf36c85)# 🎓 College Finder
 
 **College Finder** is a modern and user-friendly web application that helps students explore and learn more about various colleges. Users can view college details like course, city, and rank, along with an official website link. It also allows users to post comments on each college's detail page.
 
@@ -20,7 +20,6 @@
 
 ## 📁 Folder Structure
 
-
 CollegeFinder/
 ├── home.html
 ├── all.html
@@ -28,13 +27,19 @@ CollegeFinder/
 ├── contact.html
 ├── college.html
 ├── css/
-│   └── college.css
+│   ├── all.css
+│   ├── home.css
+│   ├── search.css
+│   ├── college.css
+│   └── contact.css
 ├── js/
 │   ├── college.js
-│   └── collegeList.js
+│   ├── all.js
+│   └── search.js
 ├── imgs/
 │   └── logo.jpg
 ├── README.md
+
 
 ---
 
@@ -56,11 +61,13 @@ cd college-finder
 
 
 ## 📸 Screenshots
-![Screenshot 2025-04-10 202158](https://github.com/user-attachments/assets/09cc9a65-18f7-4295-a6f3-de64dbca6e79)
+![Screenshot 2025-04-10 202158](https://github.com/user-attachments/assets/036e9c75-f2b2-44c6-a5bc-9b30fe1a36b4)
+![Screenshot 2025-04-10 202215](https://github.com/user-attachments/assets/953da49b-f19e-4d6d-84ee-1abf11fdbb95)
+![Screenshot 2025-04-10 202227](https://github.com/user-attachments/assets/8136c6b6-9c35-4a59-9e8a-a638724ce4c7)
+![Screenshot 2025-04-10 202238](https://github.com/user-attachments/assets/5feb7f8d-9ce6-423d-bb6e-45aa9544518b)
 
 
 
----
 
 ## ✍️ Author
 
