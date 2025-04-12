@@ -29,11 +29,7 @@ header img {
     border-radius: 1px; 
 }
 
-header h1 {
-    font-size: 36px;
-    color: white; /* White text for the title */
-    margin-left: 10px; /* Space between logo and title */
-}
+
 
 header nav {
     display: flex;
